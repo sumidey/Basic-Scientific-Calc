@@ -1,0 +1,127 @@
+/*
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #12b0e8;
+}
+*/
+
+/*
+.content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+*/
+/*
+.row button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 10px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #000000ce,
+        -5px -5px 8px #12b0e8;
+    background-color: #12b0e8;
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background: #fff;
+}*/
+/*
+.display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #12b0e8;
+    border-radius: 50px;
+    box-shadow: inset 8px 8px 8px #207398,
+        inset -8px -8px 8px #12b0e8;
+    color: #fff;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #207398;
+    font-family: sans-serif;
+    outline: none;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2%;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: #b9345a;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #b9345a, 5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+}
+
+input{
+    grid-column: span 5;
+    height: 60px;
+    width: 370px;
+    background-color: #b9345a;
+    box-shadow: inset -5px -5px 12px #a9143e, inset 5px 5px 12px rgba(0, 0, 0, .26);
+    border: none;
+    border-radius: 30px;
+    color: rgba(255, 245, 245, 0.989);
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    height: 50px;
+    width: 55px;
+    background-color: #b9345a;
+    box-shadow: -5px -5px 12px #a9143e, 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 30%;
+    margin: 8px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+button span{
+    background-color: #b9345a;
+}
